@@ -1,0 +1,71 @@
+{
+    "fields": [
+        {
+            "name": "name",
+            "type": "string"
+        },
+	      {
+            "name": "url",
+            "type": "string"
+        },
+	      {
+            "name": "category_id",
+            "type": "string"
+        },
+        {
+            "name": "budget",
+            "type": "select",
+            "options": {
+                "0": 149,
+                "1": 399,
+                "2": 999
+            }
+        },
+	      {
+            "name": "country",
+            "type": "string"
+        },
+	      {
+            "name": "goal",
+            "type": "string"
+        },
+	      {
+            "name": "category",
+            "type": "select",
+            "options": {
+                "0": "Awareness",
+                "1": "Conversion"
+            }
+        }
+    ],
+    "validations": [
+        {
+            "field": "name",
+            "rules": "required|max:255"
+        },
+	      {
+            "field": "url",
+            "rules": "required|max:255"
+        },
+	      {
+            "field": "category_id",
+            "rules": "required|max:255|numeric"
+        },
+	      {
+            "field": "budget",
+            "rules": "required"
+        },
+	      {
+            "field": "country",
+            "rules": "required"
+        },
+	      {
+            "field": "goal",
+            "rules": "required"
+        },
+	      {
+            "field": "category",
+            "rules": "required"
+        }
+    ]
+}
