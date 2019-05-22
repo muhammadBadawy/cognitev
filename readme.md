@@ -6,16 +6,18 @@ This app uses extraction service  that allows him to extract data from URL to st
 # Setup
 
 After getting this project please follow these steps :
-1 - create a database in Mysql
-2 - open .env file and change the DB paramitars
-	DB_DATABASE={{ your database name }}
-	DB_USERNAME={{ your mysql username }}
-	DB_PASSWORD={{ your mysql password}}
- Then save it.
- 3 - run the command "composer install" and "php artisan key:generate"
- 4 - run the command "php artisan migrate"
- 5 - run the command "php artisan serve" then you will get a link like this (http://127.0.0.1:8000) open it !
- 6 - register to the web app then login
+- create a database in Mysql
+- open .env file and change the DB paramitars
+```
+> DB_DATABASE={{ your database name }}
+> DB_USERNAME={{ your mysql username }}
+> DB_PASSWORD={{ your mysql password}}
+```
+Then save it.
+ - run the command "composer install" and "php artisan key:generate"
+ - run the command "php artisan migrate"
+ - run the command "php artisan serve" then you will get a link like this (http://127.0.0.1:8000) open it !
+ - register to the web app then login
 
 ## Usage
 
